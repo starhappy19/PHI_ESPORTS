@@ -1,0 +1,120 @@
+#orfr, #oren {
+	font-size: 48px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    background: linear-gradient(45deg, #FFDA44, #FFC300, #FFD700); /* Dégradé doré éclatant */
+    -webkit-background-clip: text; /* Clip le fond au texte */
+    -webkit-text-fill-color: transparent; /* Remplit le texte avec le dégradé */
+    text-shadow: 2px 2px 6px rgba(255, 215, 0, 0.7); /* Ombre pour donner de la profondeur */
+    text-align: center; 
+    border-radius: 5px; /* Coins arrondis */
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*overflow: hidden; /* Empêche le défilement */
+}
+
+.video-background {
+    position: fixed; /* Fixe la vidéo en arrière-plan */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Envoie la vidéo derrière le contenu */
+}
+
+video {
+    object-fit: cover; /* Couvre toute la section */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#logoBS {
+    display: block; /* Transforme l'image en élément de bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    width: 13%; /* Pour s'assurer que l'image ne déborde pas */
+    height: auto;
+}
+#img2 {
+    display: block; /* Transforme l'image en élément de bloc */
+    float: right; /* Centre l'image horizontalement */
+    width: 13%; /* Pour s'assurer que l'image ne déborde pas */
+    height: auto;
+	margin-left: 20px;
+}
+
+#emea {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+.cadre {
+    background: linear-gradient(#004dff , #9dbbff); /* Couleur de fond du cadre */
+    border: 3px solid #000000; /* Bordure du cadre */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement intérieur */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    width: 200px; /* Largeur du cadre */
+	height: 250px;
+    text-align: center; /* Centrer le texte */
+	display: block; /* Transforme l'image en élément de bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+#dyna, #stu{
+    display: block; /* Transforme l'image en élément de bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    width: 100%; /* Pour s'assurer que l'image ne déborde pas */
+    height: auto;
+}
+#dynapp, #stupp {
+	background-image: url("./images/dynamikepp.gif");
+	width: 65%;
+}
+
+@font-face {
+    font-family: 'Nougat Extra Black';
+    src: url('./police/nougat.woff2') format('woff2'),
+         url('./police/nougat-extra-black.woff') format('woff');
+    font-weight: 900; /* ou le poids approprié */
+    font-style: normal; /* ou 'italic' si nécessaire */
+}
+#SH, #Bee {
+	font-size: 30px;
+	font-family: 'Nougat Extra Black', sans-serif;
+    color: #0079df; /* Couleur du texte */
+    text-shadow: 
+        -1px -1px 0 black,  /* Ombre en haut à gauche */
+        1px -1px 0 black,   /* Ombre en haut à droite */
+        -1px 1px 0 black,   /* Ombre en bas à gauche */
+        1px 1px 0 black;    /* Ombre en bas à droite */
+}
+
+section {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px;
+	padding: 10px;         
+    margin: 20px; 
+}
+
+article {
+	text-align: center;
+	font-family: 'Nougat Extra Black', sans-serif;
+	font-size: 30px;
+	color: #1252e3; /* Couleur du texte */
+	border: 2px solid white; /* Contour blanc */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fond légèrement transparent */
+}
+}
+
+.texte p {
+    margin: 0; /* Supprime l'espacement par défaut */
+    line-height: 1.2; /* Ajuste l'interligne pour un espacement plus petit */
+}
